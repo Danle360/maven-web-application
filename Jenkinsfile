@@ -1,4 +1,4 @@
-node{
+node('agent-slave'){
      
     stage('SCM Checkout'){
         git url: 'https://github.com/Danle360/maven-web-application.git',branch: 'master'
